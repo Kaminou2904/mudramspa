@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brandGoldTxt{
+    color: #dab873 !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-gold{
+    color: #dab873 !important;
+}
+
+.brandGoldBg{
+    background-color: #dab873 !important;
+}
+
+.bg-maroon{
+    background-color: maroon !important;
+}
+
+.brandGoldBgGrad{
+    background: linear-gradient(to right, #ae8736, #ffce69) !important;
+}
+
+.mainHeader{
+    position: fixed;
+    top: 0px;
+    background: white;
+    z-index: 15;
+}
+
+.btnWrap a{
+    background-color: #dab873;
+    border: none !important;
+    color: black;
+}
+
+.introTxt h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.descriptionPara{
+    line-height: 18px;
+}
+
+.addBannerWrap p{
+    background-color: #ffecc6;
+}
+
+.carouselImg{
+    border-radius: 20px;
+}
+
+.spaCard{
+    border-radius: 20px;
+    width: min(100%, 360px);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px !important;
+}
+
+.cardImg img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cardName a{
+    height: 65px;
+    line-height: 30px;
+}
+
+.cardBtnWrap{
+    margin-bottom: -25px;
+}
+
+.addLogo{
+    border: 1px solid #dab873 !important;
+}
+
+.addtxt1{
+    line-height: 20px;
+}
+.addtxt2{
+    line-height: 20px;
+}
+
+.footerLogo img{
+    width: 20%;
+}
+
+/* new styling */
+#myvid{
+    width: 100% !important;
+}
+.hoverIntro{
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    z-index: 10;
+    width: 100%;
+    top: 64px;
+    aspect-ratio: 721 / 408.11;
+}
+.intro-text{
+    font-size: 6vw !important;
+}
+.introCall{
+    font-size: 4vw !important;
+}
+.cardImg img{
+    width: 100% !important;
+    border-radius: 20px;
+}
+@media screen and (min-width: 600px) {
+    .intro-text{
+        font-size: 4vw !important;
+    }
+    .introCall{
+        font-size: 2vw !important;
+    }
+    
+}
+
+.CardPricePara{
+    font-size: 14px;
+}
+.cardNamePara{
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.topBanner{
+    background-image: url('../assests/images/newSpa2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+.topBannerWrap{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.topBannerCaroI{
+    border-radius: 20px !important;
+}
+
+.spaCard{
+    cursor: pointer;
+}
